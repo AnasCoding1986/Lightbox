@@ -1,0 +1,44 @@
+#popupDiv{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(215, 227, 232, 0.725);
+    display: none;
+}
+
+#popupImg{
+    width: 95%;
+    height: 95vh;
+    position: absolute;
+    
+    top: 0%;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: beige;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#close{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+#left{
+    position: absolute;
+    left: 2%;
+    top: 45%;
+}
+
+#right{
+    position: absolute;
+    right: 2%;
+    top: 45%;
+}
